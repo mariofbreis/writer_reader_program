@@ -1,4 +1,4 @@
-# writer_reader_program
+# Writer Reader Program
  Project for the Operating Systems course
 
 The Operating Systems project is organized in 5 linked parts.
