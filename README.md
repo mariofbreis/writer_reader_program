@@ -7,7 +7,7 @@ The 5 parts that make up the project address the following topics:
 
 - Part 1: Sequential version of the WRITER and READER programs.
 
-- Part 2_ Parallel version of the WRITER program; a parent process creates several child processes and these are the ones that, in competition, execute the writing operations on the files, leaving the parent process to measure and print the total time of the program execution.
+- Part 2: Parallel version of the WRITER program; a parent process creates several child processes and these are the ones that, in competition, execute the writing operations on the files, leaving the parent process to measure and print the total time of the program execution.
 
 - Part 3: At this stage, it was necessary to synchronize access to files by the WRITER programs; in effect, it was intended to ensure that if a process is writing to a given file, no other process can be writing to that file. Several READER processes should be able to read the same files concurrently.
 
